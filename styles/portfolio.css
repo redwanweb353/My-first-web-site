@@ -21,10 +21,21 @@
     font-weight: bold;
     font-size: 20px;
     color:#fff;
-    padding: 18px 35px 19px 36px;
-    border: none;
+    padding: 16px 33px 17px 34px;
+    border: 2px solid #FD6E0A;
     border-radius: 5px;
     cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:#fff ;
+    font-weight: bold;
+    font-size: 20px;
+    color:#FD6E0A;
+    padding: 16px 33px 17px 34px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
 }
 .section-title{
     font-size: 35px;
@@ -103,15 +114,16 @@ nav ul li a{
     border-radius: 5px;
     cursor: pointer;
 }
-.btn-2nd{
-     background-color: #ffffff;
+.btn-2nd:hover{
+     background-color:#FD6E0A ;
     font-weight: bold;
     font-size: 20px;
-    color:#FD6E0A;
+    color:#ffffff;
     padding: 16px 35px 17px 36px;
     border: 2px solid #FD6E0A;
     border-radius: 5px;
     cursor: pointer;
+    transition: .5s;
 }
 .banner-content .btn-2nd{
     margin-left: 30px;
