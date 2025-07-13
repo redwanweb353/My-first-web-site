@@ -64,7 +64,9 @@ nav{
     justify-content: space-between;
     margin: 0 200px;
 }
-
+.nav-hover:hover{
+    color: #FD6E0A;
+}
 .nav-title{
     font-size: 45px;
     font-weight: 800;
